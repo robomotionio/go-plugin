@@ -1,4 +1,4 @@
-module github.com/hashicorp/go-plugin
+module github.com/mosteknoloji/go-plugin
 
 go 1.13
 
