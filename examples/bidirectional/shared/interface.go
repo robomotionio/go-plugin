@@ -5,8 +5,8 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/go-plugin/examples/bidirectional/proto"
+	"github.com/mosteknoloji/go-plugin"
+	"github.com/mosteknoloji/go-plugin/examples/bidirectional/proto"
 )
 
 // Handshake is a common handshake that is shared by plugin and host.
