@@ -11,7 +11,6 @@ import (
 	"net"
 	"os"
 	"os/signal"
-	"runtime"
 	"sort"
 	"strconv"
 	"strings"
