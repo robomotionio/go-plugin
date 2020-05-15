@@ -394,11 +394,11 @@ func Serve(opts *ServeConfig) {
 }
 
 func serverListener() (net.Listener, error) {
-	if runtime.GOOS == "windows" {
+	//if runtime.GOOS == "windows" {
 		return serverListener_tcp()
-	}
+	//}
 
-	return serverListener_unix()
+	//return serverListener_unix()
 }
 
 func serverListener_tcp() (net.Listener, error) {
