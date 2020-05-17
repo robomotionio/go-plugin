@@ -181,8 +181,8 @@ func protocolVersion(opts *ServeConfig) (int, Protocol, PluginSet) {
 // Serve serves the plugins given by ServeConfig.
 //
 // Serve doesn't return until the plugin is done being executed. Any
-// fixable errors will be output to os.Stderr and the process will 
-// exit with a status code of 1. Serve will panic for unexpected 
+// fixable errors will be output to os.Stderr and the process will
+// exit with a status code of 1. Serve will panic for unexpected
 // conditions where a user's fix is unknown.
 //
 // This is the method that plugins should call in their main() functions.
@@ -393,11 +393,7 @@ func Serve(opts *ServeConfig) {
 }
 
 func serverListener() (net.Listener, error) {
-	//if runtime.GOOS == "windows" {
-		return serverListener_tcp()
-	//}
-
-	//return serverListener_unix()
+	return serverListener_tcp()
 }
 
 func serverListener_tcp() (net.Listener, error) {

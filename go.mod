@@ -6,6 +6,7 @@ require (
 	github.com/golang/protobuf v1.4.1
 	github.com/hashicorp/go-hclog v0.13.0
 	github.com/hashicorp/yamux v0.0.0-20190923154419-df201c70410d
+	github.com/jhump/protoreflect v1.6.1
 	github.com/mitchellh/go-testing-interface v1.14.1
 	github.com/oklog/run v1.1.0
 	golang.org/x/net v0.0.0-20200513185701-a91f0712d120
