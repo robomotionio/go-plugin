@@ -1018,7 +1018,7 @@ func (c *Client) logStderr(r io.Reader) {
 				// if there was no log level, it's likely this is unexpected
 				// json from something other than hclog, and we should output
 				// it verbatim.
-				l.Debug(string(line))
+				fmt.Println(string(line))
 			}
 		}
 	}
