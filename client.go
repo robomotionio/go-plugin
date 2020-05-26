@@ -997,7 +997,7 @@ func (c *Client) logStderr(r io.Reader) {
 			case strings.HasPrefix(line, "[ERROR]"):
 				l.Error(line)
 			default:
-				l.Debug(line)
+				l.Info(line)
 			}
 		} else {
 			out := flattenKVPairs(entry.KVPairs)
