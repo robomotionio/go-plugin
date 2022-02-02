@@ -266,6 +266,7 @@ func Serve(opts *ServeConfig) {
 			listener.Close()
 		}()
 	}
+	opts.Listener = listener
 
 	var tlsConfig *tls.Config
 	if opts.TLSProvider != nil {
