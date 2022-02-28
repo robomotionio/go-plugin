@@ -3,7 +3,7 @@ package plugin
 import (
 	"context"
 
-	"github.com/mosteknoloji/go-plugin/internal/plugin"
+	"github.com/robomotionio/go-plugin/internal/plugin"
 )
 
 // GRPCControllerServer handles shutdown calls to terminate the server when the

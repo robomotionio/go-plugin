@@ -3,7 +3,7 @@ package example
 import (
 	"net/rpc"
 
-	"github.com/mosteknoloji/go-plugin"
+	"github.com/robomotionio/go-plugin"
 )
 
 // Greeter is the interface that we're exposing as a plugin.

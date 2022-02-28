@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/mosteknoloji/go-plugin"
-	"github.com/mosteknoloji/go-plugin/examples/grpc/shared"
+	"github.com/robomotionio/go-plugin"
+	"github.com/robomotionio/go-plugin/examples/grpc/shared"
 )
 
 // Here is a real implementation of KV that uses grpc and  writes to a local

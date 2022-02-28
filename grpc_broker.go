@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/mosteknoloji/go-plugin/internal/plugin"
+	"github.com/robomotionio/go-plugin/internal/plugin"
 
 	"github.com/oklog/run"
 	"google.golang.org/grpc"

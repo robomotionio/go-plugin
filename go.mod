@@ -1,4 +1,4 @@
-module github.com/mosteknoloji/go-plugin
+module github.com/robomotionio/go-plugin
 
 go 1.14
 

@@ -1,7 +1,7 @@
 package shared
 
 import (
-	"github.com/mosteknoloji/go-plugin/examples/grpc/proto"
+	"github.com/robomotionio/go-plugin/examples/grpc/proto"
 	"golang.org/x/net/context"
 )
 

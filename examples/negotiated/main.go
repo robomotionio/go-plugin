@@ -7,8 +7,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/mosteknoloji/go-plugin"
-	"github.com/mosteknoloji/go-plugin/examples/grpc/shared"
+	"github.com/robomotionio/go-plugin"
+	"github.com/robomotionio/go-plugin/examples/grpc/shared"
 )
 
 func main() {

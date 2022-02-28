@@ -4,8 +4,8 @@ import (
 	"os"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/mosteknoloji/go-plugin"
-	"github.com/mosteknoloji/go-plugin/examples/basic/commons"
+	"github.com/robomotionio/go-plugin"
+	example "github.com/robomotionio/go-plugin/examples/basic/commons"
 )
 
 // Here is a real implementation of Greeter

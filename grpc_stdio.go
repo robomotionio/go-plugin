@@ -8,7 +8,7 @@ import (
 
 	empty "github.com/golang/protobuf/ptypes/empty"
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/mosteknoloji/go-plugin/internal/plugin"
+	"github.com/robomotionio/go-plugin/internal/plugin"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

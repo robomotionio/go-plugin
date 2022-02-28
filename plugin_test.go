@@ -17,7 +17,7 @@ import (
 
 	"github.com/golang/protobuf/ptypes/empty"
 	hclog "github.com/hashicorp/go-hclog"
-	grpctest "github.com/mosteknoloji/go-plugin/test/grpc"
+	grpctest "github.com/robomotionio/go-plugin/test/grpc"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

@@ -8,8 +8,8 @@ import (
 	"net/rpc"
 
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/mosteknoloji/go-plugin/internal/plugin"
 	"github.com/mitchellh/go-testing-interface"
+	"github.com/robomotionio/go-plugin/internal/plugin"
 	"google.golang.org/grpc"
 )
 

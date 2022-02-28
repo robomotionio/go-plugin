@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"github.com/mosteknoloji/go-plugin"
-	"github.com/mosteknoloji/go-plugin/examples/bidirectional/shared"
+	"github.com/robomotionio/go-plugin"
+	"github.com/robomotionio/go-plugin/examples/bidirectional/shared"
 )
 
 // Here is a real implementation of KV that writes to a local file with

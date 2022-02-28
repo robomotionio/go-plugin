@@ -8,8 +8,8 @@ import (
 	"os/exec"
 	"strconv"
 
-	"github.com/mosteknoloji/go-plugin"
-	"github.com/mosteknoloji/go-plugin/examples/bidirectional/shared"
+	"github.com/robomotionio/go-plugin"
+	"github.com/robomotionio/go-plugin/examples/bidirectional/shared"
 )
 
 type addHelper struct{}
