@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"log"
 	"net"
+	"strings"
 	"sync"
 	"sync/atomic"
 	"time"
@@ -295,7 +296,7 @@ func (b *GRPCBroker) Accept(id uint32) (net.Listener, error) {
 		Network:   listener.Addr().Network(),
 		Address:   listener.Addr().String(),
 	})
-	if err != nil {
+	if err != nil && !strings.Contains(err.Error(), "broker closed") && !strings.Contains(err.Error(), "EOF") {
 		return nil, err
 	}
 
